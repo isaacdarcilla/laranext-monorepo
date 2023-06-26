@@ -46,6 +46,8 @@ cd frontend
 npm run dev
 ```
 
+> You may want to open separate terminals for `backend` and `frontend` folders.
+
 ### Authentication Hook
 
 This Next.js application contains a custom `useAuth` React hook, designed to abstract all authentication logic away from your pages. In addition, the hook can be used to access the currently authenticated user:
