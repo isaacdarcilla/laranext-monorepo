@@ -13,6 +13,7 @@ git clone https://github.com/isaacdarcilla/laranext-monorepo
 Install node packages
 
 ```
+cd laranext-monorepo
 npm install
 ```
 
