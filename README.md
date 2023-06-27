@@ -37,6 +37,11 @@ After defining the appropriate environment variables, you may serve the Laravel 
 ```
 cd backend
 php artisan serve
+
+or 
+
+cd laranext-monorepo
+npm run start -w @mono/backend
 ```
 
 Finally, run the application via `npm run dev`. The application will be available at `http://localhost:3000`
@@ -44,9 +49,23 @@ Finally, run the application via `npm run dev`. The application will be availabl
 ```
 cd frontend
 npm run dev
+
+or 
+
+cd laranext-monorepo
+npm run dev -w @mono/backend
 ```
 
-> You may want to open separate terminals for `backend` and `frontend` folders.
+> You may want to open separate terminals for `backend` and `frontend` folders. Or you can just use `-w <package>` flag when starting the development server.
+
+### Adding Package to Workspace
+
+To add new packages to the workspace, for example `husky`,
+
+```
+npm install <dependency> -w <package>
+npm install husky -D -w @mono/frontend
+```
 
 ### Authentication Hook
 

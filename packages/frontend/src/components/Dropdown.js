@@ -29,6 +29,7 @@ const Dropdown = ({
             break
     }
 
+    // eslint-disable-next-line no-unused-vars
     const [open, setOpen] = useState(false)
 
     return (
